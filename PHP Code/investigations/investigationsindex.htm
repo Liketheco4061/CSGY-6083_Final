@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Investigation Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .button-group {
+            margin-bottom: 20px;
+        }
+
+        .button-group h3 {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            text-align: left;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #004a99;
+        }
+
+        .sub-btn {
+            margin-left: 30px;
+            background-color: #3399ff;
+        }
+
+        .sub-btn:hover {
+            background-color: #1a75cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Investigation Management System</h1>
+
+    <div class="button-group">
+        <a href="investigations.php" class="btn">Investigation List</a><br>
+        <a href="addinvestigation.php" class="btn sub-btn">Add New Investigation</a>
+    </div>
+    
+    <div class="button-group">
+        <a href="subjects/subjects.php" class="btn">Subjects Database</a><br>
+        <a href="subjects/addsubject.php" class="btn sub-btn">Add New Subject</a>
+    </div>
+
+    <div class="button-group">
+        <a href="evidence/evidence.php" class="btn">Evidence Tracking</a><br>
+        <a href="evidence/addevidence.php" class="btn sub-btn">Add New Evidence</a>
+    </div>
+    
+     <h1>Views</h1>
+    
+    <div class="button-group">
+        <a href="evidence/evidenceview.php" class="btn">Evidence View</a><br>
+        <a href="investigationauditlog.php" class="btn">Investigations Audit Log</a><br>
+        <a href="evidence/evidenceauditlog.php" class="btn">Evidence Audit Log</a><br>
+        <a href="subjects/subjectauditlog.php" class="btn">Subject Audit Log</a><br>
+        
+        
+    </div>
+    
+    <a href="https://liketheco.io/final/index.php" class="btn">Back to Main Index</a>
+</body>
+</html>
